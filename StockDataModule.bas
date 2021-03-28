@@ -44,7 +44,7 @@ Sub StockData():
                     
                 Else
                 
-                    ws.Range("K" & summaryRow).Value = (yearlyChange / startValue) * 100
+                    ws.Range("K" & summaryRow).Value = (yearlyChange / startValue)
                     
                 End If
             
